@@ -1,0 +1,7 @@
+name: DyableWood
+main: de.craften.plugins.dyablewood.DyableWood
+version: VERSION
+permissions:
+  dyablewood.dye:
+    default: true
+    description: Permission required to dye wood.
