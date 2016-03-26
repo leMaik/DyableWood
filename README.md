@@ -15,13 +15,15 @@ crafting it with a dye.
 |------------------|----------------------|
 | Dandelion Yellow | Oak Wood             |
 | Cocoa Beans      | Spruce Wood          |
-| Bone Meal        | Birch Wood           |
+| Bone Meal        | Birch Wood¹          |
 | Rose Red         | Jungle Wood          |
 | Orange Dye       | Acacia Wood          |
-| Cocoa Beans¹     | Dark Oak Wood        |
+| Cocoa Beans²     | Dark Oak Wood        |
 
-¹Put Cocoa Beans on two slots to dye any wood type to Dark Oak Wood. Except for
-Spruce Wood, which is already pretty brown and thus only needs one more Cocoa
+¹Except for Dark Oak Wood, which turns into Spruce Wood when dyed with Bone Meal.
+
+²Put Cocoa Beans on two slots to dye any wood type to Dark Oak Wood. Except for
+Spruce Wood, which is already pretty brown and thus only needs one Cocoa
 Bean to be dyed to Dark Oak Wood.
 
 ## Permissions
