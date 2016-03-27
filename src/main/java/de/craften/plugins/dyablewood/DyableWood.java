@@ -76,6 +76,17 @@ public class DyableWood extends JavaPlugin {
                 new ItemStack(Material.ACACIA_FENCE_GATE),
                 new ItemStack(Material.DARK_OAK_FENCE_GATE));
 
+        //Boats (1.9 and later)
+        if (Material.getMaterial("BOAT_SPRUCE") != null) {
+            registerDyeRecipes(
+                    new ItemStack(Material.BOAT),
+                    new ItemStack(Material.BOAT_SPRUCE),
+                    new ItemStack(Material.BOAT_BIRCH),
+                    new ItemStack(Material.BOAT_JUNGLE),
+                    new ItemStack(Material.BOAT_ACACIA),
+                    new ItemStack(Material.BOAT_DARK_OAK));
+        }
+
         getServer().getPluginManager().registerEvents(new WoodDyingListener(recipes), this);
     }
 
